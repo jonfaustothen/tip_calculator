@@ -1,6 +1,6 @@
 # The Tip Calculator
 
- ***This program is a tip calculator meant to assist the user calculate the tip that should be given for a meal.  It factors in multiple guests who share the dinner together, and calculates how much each person should contribute were the breakdown to be even amongst them.***
+ ***This program is a tip calculator meant to assist the user calculate the tip that should be given for a meal***
 
 ## Usage
 This calculator requires that you have [Python3](https://www.python.org/downloads/).
@@ -21,4 +21,4 @@ To run the python scrips, enter the following in the command line:
 py tip_calculator.py
 
 ## History / Credits
-There are a multitude of resources online to write this script, but I mostly referred to lessons taight by Columbia University's JTC Program's staff.  Feel free to use this code to develop your own code!
+There are a multitude of resources online to write this script, but I mostly referred to lessons taught by Columbia University's JTC Program's staff.  Feel free to use this code to develop your own program!
