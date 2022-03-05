@@ -1,6 +1,6 @@
 # The Tip Calculator
 
- ***This program is a tip calculator meant to assist the user calculate the tip that should be given for a meal***
+ ***This program is a tip calculator meant to assist the user calculate the tip that should be given for a meal, especially when dining with a group of people.***
 
 ## Usage
 This calculator requires that you have [Python3](https://www.python.org/downloads/).
