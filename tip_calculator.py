@@ -1,9 +1,8 @@
-# Creating while loop to allow user to re-enter script at the end
-
 # Creating function that prints "thinking computer" display on terminal to separate user experience
 def computing():
     return("\n........//( o )//........//( o )//........\n.................//>>//...................\n.............vvvvvvvvvvvvvvv..............\n")
 
+# Creating while loop to allow user to re-enter script at the end
 while True:
 # Introduce program to user:
     print("\nHello! And welcome to The Tip Calculator! \n\nThis program will help you determine how much you should tip for your meal.\n")
@@ -21,7 +20,6 @@ while True:
                 if retry == 'q':
                     print("Good Bye!")
                     quit()
-    
              
     cost = float(cost_of_meal()) #cost is variable for return of function cost_of_meal
     print(f"\nThanks! Let's first figure out how much tax is due for ${cost}.")
@@ -51,7 +49,7 @@ while True:
     sample_tip_rate(20)
     sample_tip_rate(25)
 
-# Calculations needed for user tip rate
+# Creating function with multiple variables to calculate tip to be contributed by each person
     def cost_per_person(num_people):
         user_tip_percentage = float(input("\nWhat _____% would you like to tip?\n"))
         user_tip_rate = user_tip_percentage / 100
